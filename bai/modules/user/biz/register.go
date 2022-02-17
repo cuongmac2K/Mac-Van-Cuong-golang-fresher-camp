@@ -2,8 +2,8 @@ package biz
 
 import (
 	"context"
-	"locnguyen/common"
-	"locnguyen/modules/user/model"
+	"demo/common"
+	"demo/modules/user/model"
 )
 
 type RegisterStorage interface {
