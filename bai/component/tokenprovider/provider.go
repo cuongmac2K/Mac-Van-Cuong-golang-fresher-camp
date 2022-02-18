@@ -2,7 +2,7 @@ package tokenprovider
 
 import (
 	"errors"
-	"locnguyen/common"
+	"demo/common"
 	"time"
 )
 
