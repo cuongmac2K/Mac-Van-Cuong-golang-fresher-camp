@@ -1,0 +1,5 @@
+Câu hỏi:Khi nào cần tạo các cột số đếm ngay trên table dữ liệu (VD: liked_count trên restaurants)?
+
+Trả lời:Khi mà DB Phải chịu tải cao,dữ liệu trong DB lớn.Thì chúng ta cần tạo cột đếm (VD: liked_count trên restaurants) 
+để giảm gánh nặng cho DB đỡ phải tính toán dữ liệu nhiều lần.
+  
