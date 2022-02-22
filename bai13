@@ -1,0 +1,7 @@
+Câu hỏi:Nếu chúng ta có nhiều hơn 1 module, làm sao để giao tiếp với nhau. Giả sử module "Restaurant" 
+cần data số lượt like từ module "Like Restaurant" thì sẽ truy xuất như thế nào?
+Trả lời:
++Ta có thể dùng kỹ thuật preload hoặc join các bảng để link dữ liệu với nhau.
++Khi cần lấy lượt like từ module Restaurantlike sang module Restaurant 
+ta store dữ liệu ở tầng storage ở đây là dùng cout để tính số lần nhà hàng được like,
+sau đó bên business của Restaurant ta gọi lại store này lấy dữ liệu
